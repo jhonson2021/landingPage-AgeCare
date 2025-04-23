@@ -378,9 +378,12 @@ h3 {
 @media only screen and (max-width: 768px) {
     .menu-btn{
         display: block;
-        height: 80px;
-        width: 80px;
+        height: 60px;
+        width: 60px;
+        top: 10px;
+        right: 10px;
     }
+
 
     .navbar {
         padding: 0px;
@@ -388,10 +391,10 @@ h3 {
 
     .logo {
         position: absolute;
-        top: 30px;
-        left: 30px;
-        height: 120px;
-        width: 120px;
+        top: 10px;
+        left: 15px;
+        height: 80px;
+        width: 80px;
     }
 
     header {
@@ -446,6 +449,9 @@ h3 {
     }
     .container .contactInfo {
         margin-bottom: 40px;
+        width: 100%;
+    }
+    .contactForm {
         width: 100%;
     }
 }
