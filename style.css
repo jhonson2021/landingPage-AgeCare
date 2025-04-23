@@ -384,6 +384,10 @@ h3 {
         right: 10px;
     }
 
+    .nav-links a {
+        font-size: 6vmin;
+    }
+
 
     .navbar {
         padding: 0px;
@@ -404,7 +408,7 @@ h3 {
     .nav-links{
         flex-direction: column;
         width: 100%;
-        height: 100vh;
+        height: 70vh;
         justify-content: center;
         background-color: #0a2037;
         margin-top: -900px;
@@ -413,7 +417,7 @@ h3 {
 
     .mobile-menu{
         margin-top: 0px;
-        border-bottom-right-radius: 25%;
+        border-bottom-right-radius: 35%;
     }
 
     .nav-links li{
